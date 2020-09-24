@@ -13,22 +13,25 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper">
-            <ul>
-                <li><a href="{% url 'home' %}" class="left brand-logo">&nbsp;&nbsp;Coding with Coda Array</a></li>
-            </ul>
-            <ul class="right">
-                <li><a href="{% url 'home' %}">home</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <ul>
+                    <li><a href="{% url 'home' %}" class="left brand-logo">&nbsp;&nbsp;Coding with Coda Array</a></li>
+                </ul>
+                <ul class="right">
+                    <li><a href="{% url 'home' %}">home</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
 
-    <div class="fragmanets">
+
+    <main class="fragmanets">
         {% block content %}
         {% endblock %}
-    </div>
+    </main>
 
     <footer class="page-footer">
         <div class="right">All Rights Reserved, &copy; 2020 Coding with Coda Array</div>
