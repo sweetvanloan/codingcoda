@@ -24,5 +24,7 @@ div .social {
 }
 
 #github {
-    padding-bottom: 0;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    height: 5px !important;
 }

@@ -10,6 +10,18 @@ def home(request):
 def about(request):
     return render(request, 'about.html')
 
+def javascript(request):
+    return render(request, 'lessons/javascript.html')
+
+def python(request):
+    return render(request, 'lessons/python.html')
+
+def ruby(request):
+    return render(request, 'lessons/ruby.html')
+
+def css(request):
+    return render(request, 'lessons/css.html')
+
 def signup(request):
     error_message = ''
 
