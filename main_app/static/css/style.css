@@ -23,8 +23,6 @@ div .social {
     display: inline-block;
 }
 
-#github {
-    padding-bottom: 0 !important;
-    margin-bottom: 0 !important;
-    height: 5px !important;
+.github-button {
+    padding-top: 0;
 }
