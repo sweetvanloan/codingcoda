@@ -9,4 +9,5 @@ urlpatterns = [
     path('python/', views.python, name='python'),
     path('ruby/', views.ruby, name='ruby'),
     path('css/', views.css, name='css'),
+    path('resources/', views.resources, name='resourses'),
 ]

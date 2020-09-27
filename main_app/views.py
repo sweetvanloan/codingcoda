@@ -22,6 +22,9 @@ def ruby(request):
 def css(request):
     return render(request, 'lessons/css.html')
 
+def resources(request):
+    return render(request, 'lessons/resources.html')
+
 def signup(request):
     error_message = ''
 
